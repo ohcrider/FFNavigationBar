@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'FFNavigationBar_Example', :exclusive => true do
+  pod "FFNavigationBar", :path => "../"
+end
+
+target 'FFNavigationBar_Tests', :exclusive => true do
+  pod "FFNavigationBar", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
