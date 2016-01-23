@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
                         It can display multiple view and quick to jump to another view.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/FFNavigationBar"
+  s.homepage         = "https://github.com/fewspider/FFNavigationBar"
   s.screenshots     = "https://c2.staticflickr.com/2/1660/23932804183_1f2aa8f37a_o.gif"
   s.license          = 'MIT'
   s.author           = { "fewspider" => "fewspider@gmail.com" }
