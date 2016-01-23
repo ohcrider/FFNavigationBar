@@ -1,0 +1,6 @@
+framework module FFNavigationBar {
+  umbrella header "FFNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

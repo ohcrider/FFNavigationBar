@@ -1,0 +1,20 @@
+{
+  "name": "FFNavigationBar",
+  "version": "0.1.0",
+  "summary": "Support custom multiple navigation.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/FFNavigationBar",
+  "license": "MIT",
+  "authors": {
+    "fewspider": "fewspider@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/FFNavigationBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/**/*"
+}

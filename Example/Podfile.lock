@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - FFNavigationBar (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FFNavigationBar (from `../`)
+
+EXTERNAL SOURCES:
+  FFNavigationBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  FFNavigationBar: fc9531d35919e736a54256538461e22639226935
+
+COCOAPODS: 0.39.0

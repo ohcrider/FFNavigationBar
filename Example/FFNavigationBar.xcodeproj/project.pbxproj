@@ -15,6 +15,17 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A3F9DC5317A28B1B9CE08EA3 /* Pods_FFNavigationBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D78EC84C9A025F572589AD /* Pods_FFNavigationBar_Example.framework */; };
+		C517A23A1C534B71004395C1 /* ChildView1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517A2391C534B71004395C1 /* ChildView1Controller.swift */; };
+		C517A23C1C534B87004395C1 /* ChildView0Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517A23B1C534B87004395C1 /* ChildView0Controller.swift */; };
+		C517A23E1C534B96004395C1 /* ChildView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517A23D1C534B96004395C1 /* ChildView2Controller.swift */; };
+		C517A2401C534BA3004395C1 /* ChildView3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517A23F1C534BA3004395C1 /* ChildView3Controller.swift */; };
+		C517A2421C534BB7004395C1 /* ChildView4Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517A2411C534BB7004395C1 /* ChildView4Controller.swift */; };
+		C517A2441C534BC6004395C1 /* ChildView5Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517A2431C534BC6004395C1 /* ChildView5Controller.swift */; };
+		C517A2461C534BD5004395C1 /* ChildView6Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517A2451C534BD5004395C1 /* ChildView6Controller.swift */; };
+		C517A2481C534BE5004395C1 /* ChildView7Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517A2471C534BE5004395C1 /* ChildView7Controller.swift */; };
+		C517A24A1C534BF3004395C1 /* ChildView8Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517A2491C534BF3004395C1 /* ChildView8Controller.swift */; };
+		C517A24C1C534C01004395C1 /* ChildView9Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517A24B1C534C01004395C1 /* ChildView9Controller.swift */; };
+		C517A24E1C534C11004395C1 /* ChildView10Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517A24D1C534C11004395C1 /* ChildView10Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +57,17 @@
 		8EDCDAFB4A11E8F387BBD33C /* Pods-FFNavigationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFNavigationBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFNavigationBar_Example/Pods-FFNavigationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC2FB9060954B38FC44C95BA /* FFNavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFNavigationBar.podspec; path = ../FFNavigationBar.podspec; sourceTree = "<group>"; };
 		B4C8753984DD20F432DD36D1 /* Pods-FFNavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFNavigationBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFNavigationBar_Example/Pods-FFNavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C517A2391C534B71004395C1 /* ChildView1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView1Controller.swift; sourceTree = "<group>"; };
+		C517A23B1C534B87004395C1 /* ChildView0Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView0Controller.swift; sourceTree = "<group>"; };
+		C517A23D1C534B96004395C1 /* ChildView2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView2Controller.swift; sourceTree = "<group>"; };
+		C517A23F1C534BA3004395C1 /* ChildView3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView3Controller.swift; sourceTree = "<group>"; };
+		C517A2411C534BB7004395C1 /* ChildView4Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView4Controller.swift; sourceTree = "<group>"; };
+		C517A2431C534BC6004395C1 /* ChildView5Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView5Controller.swift; sourceTree = "<group>"; };
+		C517A2451C534BD5004395C1 /* ChildView6Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView6Controller.swift; sourceTree = "<group>"; };
+		C517A2471C534BE5004395C1 /* ChildView7Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView7Controller.swift; sourceTree = "<group>"; };
+		C517A2491C534BF3004395C1 /* ChildView8Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView8Controller.swift; sourceTree = "<group>"; };
+		C517A24B1C534C01004395C1 /* ChildView9Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView9Controller.swift; sourceTree = "<group>"; };
+		C517A24D1C534C11004395C1 /* ChildView10Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView10Controller.swift; sourceTree = "<group>"; };
 		F5D78EC84C9A025F572589AD /* Pods_FFNavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFNavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,6 +96,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for FFNavigationBar */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				CEC96E82615F75BF3162E469 /* Pods */,
@@ -93,11 +116,7 @@
 		607FACD21AFB9204008FA782 /* Example for FFNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				C5EB9CDC1C53457E00F185A1 /* Controllers */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for FFNavigationBar";
@@ -107,6 +126,9 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -137,6 +159,33 @@
 				771A331C1406BB9E089D85DB /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		C517A2381C534B48004395C1 /* Child View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C517A23B1C534B87004395C1 /* ChildView0Controller.swift */,
+				C517A2391C534B71004395C1 /* ChildView1Controller.swift */,
+				C517A23D1C534B96004395C1 /* ChildView2Controller.swift */,
+				C517A23F1C534BA3004395C1 /* ChildView3Controller.swift */,
+				C517A2411C534BB7004395C1 /* ChildView4Controller.swift */,
+				C517A2431C534BC6004395C1 /* ChildView5Controller.swift */,
+				C517A2451C534BD5004395C1 /* ChildView6Controller.swift */,
+				C517A2471C534BE5004395C1 /* ChildView7Controller.swift */,
+				C517A2491C534BF3004395C1 /* ChildView8Controller.swift */,
+				C517A24B1C534C01004395C1 /* ChildView9Controller.swift */,
+				C517A24D1C534C11004395C1 /* ChildView10Controller.swift */,
+			);
+			name = "Child View Controllers";
+			sourceTree = "<group>";
+		};
+		C5EB9CDC1C53457E00F185A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C517A2381C534B48004395C1 /* Child View Controllers */,
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		CEC96E82615F75BF3162E469 /* Pods */ = {
@@ -359,8 +408,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C517A23C1C534B87004395C1 /* ChildView0Controller.swift in Sources */,
+				C517A2401C534BA3004395C1 /* ChildView3Controller.swift in Sources */,
+				C517A23A1C534B71004395C1 /* ChildView1Controller.swift in Sources */,
+				C517A2481C534BE5004395C1 /* ChildView7Controller.swift in Sources */,
+				C517A24A1C534BF3004395C1 /* ChildView8Controller.swift in Sources */,
+				C517A23E1C534B96004395C1 /* ChildView2Controller.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				C517A2441C534BC6004395C1 /* ChildView5Controller.swift in Sources */,
+				C517A2421C534BB7004395C1 /* ChildView4Controller.swift in Sources */,
+				C517A24C1C534C01004395C1 /* ChildView9Controller.swift in Sources */,
+				C517A24E1C534C11004395C1 /* ChildView10Controller.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				C517A2461C534BD5004395C1 /* ChildView6Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +449,7 @@
 				607FACDA1AFB9204008FA782 /* Base */,
 			);
 			name = Main.storyboard;
+			path = FFNavigationBar;
 			sourceTree = "<group>";
 		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
@@ -489,6 +550,7 @@
 			baseConfigurationReference = 8EDCDAFB4A11E8F387BBD33C /* Pods-FFNavigationBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FFNavigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -502,6 +564,7 @@
 			baseConfigurationReference = B4C8753984DD20F432DD36D1 /* Pods-FFNavigationBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FFNavigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -515,10 +578,7 @@
 			baseConfigurationReference = 264BD93E2B17C1951C047D2C /* Pods-FFNavigationBar_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -536,10 +596,7 @@
 			baseConfigurationReference = 17DB8765333137AC5828CC58 /* Pods-FFNavigationBar_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E27e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="adN-BJ-Ad8">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Demo-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -17,9 +19,383 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Demo" id="xK5-vX-rvt"/>
+                    <connections>
+                        <segue destination="Dlk-jt-1nG" kind="custom" identifier="setChild0" customClass="FFSetChildViewSegue" customModule="FFNavigationBar" id="0Sn-Iv-kFA"/>
+                        <segue destination="zTD-Oz-ghH" kind="custom" identifier="setChild1" customClass="FFSetChildViewSegue" customModule="FFNavigationBar" id="YdS-DC-3hA"/>
+                        <segue destination="YPa-9I-OI4" kind="custom" identifier="setChild2" customClass="FFSetChildViewSegue" customModule="FFNavigationBar" id="GvQ-mQ-D6Q"/>
+                        <segue destination="T6Z-Ov-Y5y" kind="custom" identifier="setChild3" customClass="FFSetChildViewSegue" customModule="FFNavigationBar" id="ZHW-sE-wuC"/>
+                        <segue destination="GdR-aL-UQe" kind="custom" identifier="setChild4" customClass="FFSetChildViewSegue" customModule="FFNavigationBar" id="xbG-c3-kbi"/>
+                        <segue destination="9yE-3P-2aP" kind="custom" identifier="setChild5" customClass="FFSetChildViewSegue" customModule="FFNavigationBar" id="BGy-zY-ubg"/>
+                        <segue destination="EeY-Oq-lBA" kind="custom" identifier="setChild6" customClass="FFSetChildViewSegue" customModule="FFNavigationBar" id="iaI-w0-725"/>
+                        <segue destination="Dnh-Cl-L2o" kind="custom" identifier="setChild7" customClass="FFSetChildViewSegue" customModule="FFNavigationBar" id="KJw-RA-xeW"/>
+                        <segue destination="4qb-nY-76X" kind="custom" identifier="setChild8" customClass="FFSetChildViewSegue" customModule="FFNavigationBar" id="zyX-6l-JAc"/>
+                        <segue destination="6dc-iD-lH0" kind="custom" identifier="setChild9" customClass="FFSetChildViewSegue" customModule="FFNavigationBar" id="3eJ-Jj-Yt2"/>
+                        <segue destination="orh-Uq-aTF" kind="custom" identifier="setChild10" customClass="FFSetChildViewSegue" customModule="FFNavigationBar" id="qC9-7v-Zs3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="4801" y="-91"/>
+        </scene>
+        <!--Child View 0-->
+        <scene sceneID="ljZ-Mk-raS">
+            <objects>
+                <viewController title="Child View 0" id="Dlk-jt-1nG" customClass="ChildView0Controller" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vGM-H0-vwv"/>
+                        <viewControllerLayoutGuide type="bottom" id="fS6-Zr-F1U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rF7-cs-iL2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child View 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8C9-mb-UzU">
+                                <rect key="frame" x="20" y="289" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57602646700000004" green="1" blue="0.4090812083" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="8C9-mb-UzU" firstAttribute="centerY" secondItem="rF7-cs-iL2" secondAttribute="centerY" id="HV8-Wq-gyG"/>
+                            <constraint firstItem="8C9-mb-UzU" firstAttribute="leading" secondItem="rF7-cs-iL2" secondAttribute="leadingMargin" id="tvg-mk-2tF"/>
+                            <constraint firstItem="8C9-mb-UzU" firstAttribute="trailing" secondItem="rF7-cs-iL2" secondAttribute="trailingMargin" id="z0p-tO-pIn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ixB-70-hii" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="1087"/>
+        </scene>
+        <!--Child View1 Controller-->
+        <scene sceneID="CJT-pD-eKK">
+            <objects>
+                <viewController id="zTD-Oz-ghH" customClass="ChildView1Controller" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PZa-uz-9PK"/>
+                        <viewControllerLayoutGuide type="bottom" id="3tb-5Q-5GA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U2r-Mh-g7f">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child View 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wst-vI-G5f">
+                                <rect key="frame" x="20" y="289" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wst-vI-G5f" firstAttribute="trailing" secondItem="U2r-Mh-g7f" secondAttribute="trailingMargin" id="NDE-p6-NP6"/>
+                            <constraint firstItem="Wst-vI-G5f" firstAttribute="centerY" secondItem="U2r-Mh-g7f" secondAttribute="centerY" id="dh3-Fz-PSW"/>
+                            <constraint firstItem="Wst-vI-G5f" firstAttribute="leading" secondItem="U2r-Mh-g7f" secondAttribute="leadingMargin" id="nvO-hR-tPW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v88-KB-Yby" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786" y="1087"/>
+        </scene>
+        <!--Child View2 Controller-->
+        <scene sceneID="1qX-5q-0Cz">
+            <objects>
+                <viewController id="YPa-9I-OI4" customClass="ChildView2Controller" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bYx-bR-odH"/>
+                        <viewControllerLayoutGuide type="bottom" id="qp9-QG-fqj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XzP-vD-7WT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child View 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r6c-rK-1NY">
+                                <rect key="frame" x="20" y="290" width="560" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92549019610000005" green="0.75884878779999998" blue="0.9215086603" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="r6c-rK-1NY" firstAttribute="trailing" secondItem="XzP-vD-7WT" secondAttribute="trailingMargin" id="7Y2-Mt-vrf"/>
+                            <constraint firstItem="r6c-rK-1NY" firstAttribute="leading" secondItem="XzP-vD-7WT" secondAttribute="leadingMargin" id="9Yn-1h-zTo"/>
+                            <constraint firstItem="r6c-rK-1NY" firstAttribute="centerY" secondItem="XzP-vD-7WT" secondAttribute="centerY" id="KpM-1B-nsd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y2v-sj-2nS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1411" y="1087"/>
+        </scene>
+        <!--Child View3 Controller-->
+        <scene sceneID="GQ4-iz-uPA">
+            <objects>
+                <viewController id="T6Z-Ov-Y5y" customClass="ChildView3Controller" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bDb-5f-iu0"/>
+                        <viewControllerLayoutGuide type="bottom" id="UYm-mZ-93j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KlN-T5-XGT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child View 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnZ-Ak-cUj">
+                                <rect key="frame" x="20" y="289" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.37493296570000001" green="0.23405942430000001" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="AnZ-Ak-cUj" firstAttribute="trailing" secondItem="KlN-T5-XGT" secondAttribute="trailingMargin" id="IEI-GN-nLa"/>
+                            <constraint firstItem="AnZ-Ak-cUj" firstAttribute="leading" secondItem="KlN-T5-XGT" secondAttribute="leadingMargin" id="Uu4-lu-1OQ"/>
+                            <constraint firstItem="AnZ-Ak-cUj" firstAttribute="centerY" secondItem="KlN-T5-XGT" secondAttribute="centerY" id="yJ4-60-Jfl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QBd-g7-Mnk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2062" y="1087"/>
+        </scene>
+        <!--Child View4 Controller-->
+        <scene sceneID="AJn-iu-EaT">
+            <objects>
+                <viewController id="GdR-aL-UQe" customClass="ChildView4Controller" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bbb-Tu-5nz"/>
+                        <viewControllerLayoutGuide type="bottom" id="56h-ZI-8Lt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OaI-vR-pHE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child View 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgr-EE-WHx">
+                                <rect key="frame" x="20" y="289" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24313725489999999" green="0.66666666669999997" blue="0.18832639963684217" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="mgr-EE-WHx" firstAttribute="trailing" secondItem="OaI-vR-pHE" secondAttribute="trailingMargin" id="3yh-Sx-VU4"/>
+                            <constraint firstItem="mgr-EE-WHx" firstAttribute="centerY" secondItem="OaI-vR-pHE" secondAttribute="centerY" id="86x-6r-mqE"/>
+                            <constraint firstItem="mgr-EE-WHx" firstAttribute="leading" secondItem="OaI-vR-pHE" secondAttribute="leadingMargin" id="BYF-sk-1aG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rIl-ib-bgb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2754" y="1097"/>
+        </scene>
+        <!--Child View5 Controller-->
+        <scene sceneID="srr-QT-ivR">
+            <objects>
+                <viewController id="9yE-3P-2aP" customClass="ChildView5Controller" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9uk-S4-Ygf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nxg-0E-qYa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xXY-SP-pCy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child View 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0Y-sb-WrW">
+                                <rect key="frame" x="20" y="290" width="560" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.97316554903973695" blue="0.049766725706453796" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="M0Y-sb-WrW" firstAttribute="leading" secondItem="xXY-SP-pCy" secondAttribute="leadingMargin" id="KiH-gj-Q57"/>
+                            <constraint firstItem="M0Y-sb-WrW" firstAttribute="centerY" secondItem="xXY-SP-pCy" secondAttribute="centerY" id="Ycx-f1-cTW"/>
+                            <constraint firstItem="M0Y-sb-WrW" firstAttribute="trailing" secondItem="xXY-SP-pCy" secondAttribute="trailingMargin" id="iGQ-6u-QP0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bS-BS-Pyh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3370" y="1097"/>
+        </scene>
+        <!--Child View6 Controller-->
+        <scene sceneID="CN6-Wy-Fe5">
+            <objects>
+                <viewController id="EeY-Oq-lBA" customClass="ChildView6Controller" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R5O-Wn-kjf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gc1-03-gOW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ha3-UN-Xp2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child View 6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqH-jS-S1m">
+                                <rect key="frame" x="20" y="290" width="560" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.37740667693933716" blue="0.087734115130859713" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zqH-jS-S1m" firstAttribute="leading" secondItem="ha3-UN-Xp2" secondAttribute="leadingMargin" id="Ck5-vM-2VX"/>
+                            <constraint firstItem="zqH-jS-S1m" firstAttribute="trailing" secondItem="ha3-UN-Xp2" secondAttribute="trailingMargin" id="Dla-ov-Z1b"/>
+                            <constraint firstItem="zqH-jS-S1m" firstAttribute="centerY" secondItem="ha3-UN-Xp2" secondAttribute="centerY" id="OfC-WJ-ZVp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gjv-HD-63i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3983" y="1097"/>
+        </scene>
+        <!--Child View7 Controller-->
+        <scene sceneID="DQz-HP-NCs">
+            <objects>
+                <viewController id="Dnh-Cl-L2o" customClass="ChildView7Controller" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3pW-Dm-eiC"/>
+                        <viewControllerLayoutGuide type="bottom" id="LS4-w4-Cmb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3VK-3B-uZY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child View 7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOI-4C-4QA">
+                                <rect key="frame" x="20" y="290" width="560" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35251134308583654" green="1" blue="0.90550860267080624" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="IOI-4C-4QA" firstAttribute="centerY" secondItem="3VK-3B-uZY" secondAttribute="centerY" id="REM-29-YTE"/>
+                            <constraint firstItem="IOI-4C-4QA" firstAttribute="leading" secondItem="3VK-3B-uZY" secondAttribute="leadingMargin" id="igf-1H-krO"/>
+                            <constraint firstItem="IOI-4C-4QA" firstAttribute="trailing" secondItem="3VK-3B-uZY" secondAttribute="trailingMargin" id="sKI-XJ-Pfh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UOo-Vw-mWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4648" y="1092"/>
+        </scene>
+        <!--Child View8 Controller-->
+        <scene sceneID="O5E-K6-tMe">
+            <objects>
+                <viewController id="4qb-nY-76X" customClass="ChildView8Controller" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lqN-cB-tpv"/>
+                        <viewControllerLayoutGuide type="bottom" id="4fA-Rs-YxB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FRk-pc-hes">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child View 8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVM-uJ-Sqe">
+                                <rect key="frame" x="20" y="289" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16503085966700526" green="0.42569205654692421" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="fVM-uJ-Sqe" firstAttribute="leading" secondItem="FRk-pc-hes" secondAttribute="leadingMargin" id="M0n-tF-FDQ"/>
+                            <constraint firstItem="fVM-uJ-Sqe" firstAttribute="trailing" secondItem="FRk-pc-hes" secondAttribute="trailingMargin" id="Otn-Aj-ce3"/>
+                            <constraint firstItem="fVM-uJ-Sqe" firstAttribute="centerY" secondItem="FRk-pc-hes" secondAttribute="centerY" id="vQx-nj-Kn5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfx-oN-65u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5272" y="1095"/>
+        </scene>
+        <!--Child View9 Controller-->
+        <scene sceneID="x69-Gm-fRq">
+            <objects>
+                <viewController id="6dc-iD-lH0" customClass="ChildView9Controller" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rkq-01-UGZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="pca-AI-kTU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s8X-kz-QUV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child View 9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQv-cF-lQ6">
+                                <rect key="frame" x="20" y="289" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80155201942655807" green="0.76982436254898778" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="cQv-cF-lQ6" firstAttribute="leading" secondItem="s8X-kz-QUV" secondAttribute="leadingMargin" id="8xO-ED-UXR"/>
+                            <constraint firstItem="cQv-cF-lQ6" firstAttribute="centerY" secondItem="s8X-kz-QUV" secondAttribute="centerY" id="OGv-Ct-uyq"/>
+                            <constraint firstItem="cQv-cF-lQ6" firstAttribute="trailing" secondItem="s8X-kz-QUV" secondAttribute="trailingMargin" id="fCL-a8-V4f"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WDR-sU-bEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5914" y="1097"/>
+        </scene>
+        <!--Child View10 Controller-->
+        <scene sceneID="EQb-x8-hNH">
+            <objects>
+                <viewController id="orh-Uq-aTF" customClass="ChildView10Controller" customModule="FFNavigationBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v0U-QK-ANf"/>
+                        <viewControllerLayoutGuide type="bottom" id="vcz-m6-EHg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jba-cC-7SD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child View 10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzx-Y8-kaY">
+                                <rect key="frame" x="20" y="289" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83346768069855737" green="1" blue="0.63570713711664784" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dzx-Y8-kaY" firstAttribute="leading" secondItem="jba-cC-7SD" secondAttribute="leadingMargin" id="D0b-yt-oUe"/>
+                            <constraint firstItem="dzx-Y8-kaY" firstAttribute="trailing" secondItem="jba-cC-7SD" secondAttribute="trailingMargin" id="IkQ-tY-5Nj"/>
+                            <constraint firstItem="dzx-Y8-kaY" firstAttribute="centerY" secondItem="jba-cC-7SD" secondAttribute="centerY" id="L3J-PU-gOr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LM1-y7-iW5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6548" y="1097"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vve-zU-6TW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="adN-BJ-Ad8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SKS-Is-t6s">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="7ea-Yp-wHI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oRM-Rp-WSM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3989" y="-91"/>
         </scene>
     </scenes>
 </document>
