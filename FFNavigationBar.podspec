@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   s.screenshots     = "https://c2.staticflickr.com/2/1660/23932804183_1f2aa8f37a_o.gif"
   s.license          = 'MIT'
   s.author           = { "fewspider" => "fewspider@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/FFNavigationBar.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/fewspider/FFNavigationBar.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/fewspider'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
